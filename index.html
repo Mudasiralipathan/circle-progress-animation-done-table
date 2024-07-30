@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<div class="frame">
+<table>
+  <thead>
+    <tr style="--i:0">
+      <th>ID</th>
+      <th>NAME</th>
+      <th>COUNTRY</th>
+      <th>AGE</th>
+      <th>DATE OF BIRTH</th>
+      <th>% PERCENTAGE</th>
+      <th>GENDER</th>
+      <th>GROWTH IN SALES</th>
+      <th>INDEX</th>
+      <th>PROJECT</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="--i:1">
+      <td>1</td>
+      <td>
+        <div class="circle-box">
+          <img src="men.png" alt="Person">
+        </div>
+        John Doe
+      </td>
+      <td> <img src="map.jpg" alt="">USA</td>
+      <td>30</td>
+      <td>1994-05-15</td>
+      <td>
+        <div class="circle-progress">
+          <div class="num-progress" style="--p:80%">
+            <div class="num">75%</div>
+          </div>
+        </div>
+      </td>
+      <td class="gender" data-gender="Male"></td>
+      <td>+15%</td>
+      <td>102</td>
+      <td>Project A</td>
+    </tr>
+    <tr style="--i:2">
+      <td>2</td>
+      <td>
+        <div class="circle-box">
+          <img src="men.png" alt="Person">
+        </div>
+        Jane Smith
+      </td>
+      <td> <img src="map.jpg" alt="">Canada</td>
+      <td>28</td>
+      <td>1996-02-20</td>
+      <td>
+        <div class="circle-progress">
+          <div class="num-progress" style="--p:50%">
+            <div class="num">50%</div>
+          </div>
+        </div>
+      </td>
+      <td class="gender" data-gender="Female"></td>
+      <td>+10%</td>
+      <td>95</td>
+      <td>Project B</td>
+    </tr>
+    <tr style="--i:3">
+      <td>3</td>
+      <td>
+        <div class="circle-box">
+          <img src="men.png" alt="Person">
+        </div>
+        Michael Brown
+      </td>
+      <td> <img src="map.jpg" alt="">UK</td>
+      <td>35</td>
+      <td>1989-09-10</td>
+      <td>
+        <div class="circle-progress">
+          <div class="num-progress" style="--p:70%">
+            <div class="num">70%</div>
+          </div>
+        </div>
+      </td>
+      <td class="gender" data-gender="Male"></td>
+      <td>+20%</td>
+      <td>110</td>
+      <td>Project C</td>
+    </tr>
+    <tr style="--i:4">
+      <td>4</td>
+      <td>
+        <div class="circle-box">
+          <img src="men.png" alt="Person">
+        </div>
+        Emily Johnson
+      </td>
+      <td> <img src="map.jpg" alt="">Australia</td>
+      <td>32</td>
+      <td>1992-07-25</td>
+      <td>
+        <div class="circle-progress">
+          <div class="num-progress" style="--p:90%">
+            <div class="num">90%</div>
+          </div>
+        </div>
+      </td>
+      <td class="gender" data-gender="Female"></td>
+      <td>+18%</td>
+      <td>105</td>
+      <td>Project D</td>
+    </tr>
+    <tr style="--i:5">
+      <td>5</td>
+      <td>
+        <div class="circle-box">
+          <img src="men.png" alt="Person">
+        </div>
+        David Lee
+      </td>
+      <td> <img src="map.jpg" alt="">US</td>
+      <td>29</td>
+      <td>1995-03-30</td>
+      <td>
+        <div class="circle-progress">
+          <div class="num-progress" style="--p:84%">
+            <div class="num">84%</div>
+          </div>
+        </div>
+      </td>
+      <td class="gender" data-gender="Male"></td>
+      <td>+12%</td>
+      <td>98</td>
+      <td>Project E</td>
+    </tr>
+    <tr style="--i:6">
+      <td>6</td>
+      <td>
+        <div class="circle-box">
+          <img src="men.png" alt="Person">
+        </div>
+        Sophia Wang
+      </td>
+      <td> <img src="map.jpg" alt="">China</td>
+      <td>31</td>
+      <td>1991-11-05</td>
+      <td>
+        <div class="circle-progress">
+          <div class="num-progress" style="--p:90%">
+            <div class="num">90%</div>
+          </div>
+        </div>
+      </td>
+      <td class="gender" data-gender="Female"></td>
+      <td>+16%</td>
+      <td>100</td>
+      <td>Project F</td>
+    </tr>
+    <tr style="--i:7">
+      <td>7</td>
+      <td>
+        <div class="circle-box">
+          <img src="men.png" alt="Person">
+        </div>
+        Daniel Kim
+      </td>
+      <td> <img src="map.jpg" alt="">Japan</td>
+      <td>33</td>
+      <td>1989-12-15</td>
+      <td>
+        <div class="circle-progress">
+          <div class="num-progress" style="--p:36%">
+            <div class="num">36%</div>
+          </div>
+        </div>
+      </td>
+      <td class="gender" data-gender="Male"></td>
+      <td>+22%</td>
+      <td>115</td>
+      <td>Project G</td>
+    </tr>
+    <tr style="--i:8">
+      <td>8</td>
+      <td>
+        <div class="circle-box">
+          <img src="men.png" alt="Person">
+        </div>
+        Alice Chen
+      </td>
+      <td> <img src="map.jpg" alt="">India</td>
+      <td>27</td>
+      <td>1997-08-20</td>
+      <td>
+        <div class="circle-progress">
+          <div class="num-progress" style="--p:70%">
+            <div class="num">70%</div>
+          </div>
+        </div>
+      </td>
+      <td class="gender" data-gender="Female"></td>
+      <td>+14%</td>
+      <td>99</td>
+      <td>Project H</td>
+    </tr>
+    <tr style="--i:9">
+      <td>9</td>
+      <td>
+        <div class="circle-box">
+          <img src="men.png" alt="Person">
+        </div>
+        Olivia Davis
+      </td>
+      <td> <img src="map.jpg" alt="">France</td>
+      <td>26</td>
+      <td>1998-06-10</td>
+      <td>
+        <div class="circle-progress">
+          <div class="num-progress" style="--p:80%">
+            <div class="num">75%</div>
+          </div>
+        </div>
+      </td>
+      <td class="gender" data-gender="Female"></td>
+      <td>+17%</td>
+      <td>101</td>
+      <td>Project I</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</body>
+</html>
